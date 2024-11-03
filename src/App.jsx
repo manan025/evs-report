@@ -1,4 +1,5 @@
 import './App.css'
+import './index.css'
 
 function App() {
 
@@ -8,14 +9,14 @@ function App() {
           >
               <div className="absolute inset-0 bg-black bg-opacity-100">
                   <div className="flex flex-col items-center justify-center h-full text-white">
-                      <h1 className="text-6xl font-bold mb-4">MANAN</h1>
+                      <h1 className="text-6xl font-bold mb-4">MANAN's</h1>
                       <h2 className="text-4xl font-semibold mb-8 text-center">
                           TRIP TO ARAVALI BIODIVERSITY PARK
                       </h2>
                       <div className="space-x-4">
                           <button
-                              className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition duration-300">
-                              <a href={""}>Download PDF</a>
+                              className="">
+                              <a href={"/download.pdf"}>Download PDF</a>
                           </button>
                           <button
                               className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition duration-300">
